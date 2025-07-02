@@ -11,7 +11,6 @@ pipeline {
                 }
             }
             steps {
-              cleanWs()
                 sh ''' 
                 echo "helloworld"
                 ls -la
